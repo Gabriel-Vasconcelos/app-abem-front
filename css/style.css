@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+
+    box-sizing: border-box;
+
+    font-family: 'Fredoka One', sans-serif;
+}
+
+
+
+/* MENU */
+.nav-list a{
+    color: #fff;
+    text-decoration:none;
+
+    transition: 0.3s ;
+}
+
+.nav-list a:hover{
+    opacity: 0.6;
+}
+
+
+nav{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #555;
+    height: 10vh;
+    width: 100vw
+    
+}
+
+.nav-list{
+    display: flex;
+
+    list-style: none;
+}
+
+.nav-list li{
+    margin-left: 32px;
+    letter-spacing: 1px;
+
+    font-size: 18px;
+}
+
+/* Corpo */
+
+body{
+    background: #777;
+    /*background-image: url("../img/img-background-provisoria.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    height: 90vh;
+    width: 100vw;
+}
+
+#section-1{
+    width: 50vw;
+    height:90vh;
+
+    display:flex;
+    flex-direction: column;
+
+    justify-content:center;
+    align-items: center;
+
+    margin-right: 50px;
+}
+
+#section-1 > h1{
+    color: #ddd;
+}
+
+#section-2{
+    width: 50vw;
+    height: 90vh;
+
+    display:flex;
+
+    justify-content:center;
+    align-items: center;
+}
+
+#section-2 form{
+    width: 60%;
+    height: 80%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    padding: 45px 50px;
+
+    background: #555;
+
+    border-radius: 25px;
+    box-shadow: 0px 20px 40px #555;
+}
+
+#section-2 h1{
+    color: #ddd;
+    font-weight: 800;
+}
+
+#section-2 .textfield{
+    width: 100%;;
+
+    display:flex;
+    flex-direction: column;
+    align-items: justify;
+    margin-top: 20px;
+}
+
+#section-2 .textfield input{
+    width:100%;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+
+    background: #777;
+    box-shadow: 0px 20px 40px #555;
+
+    color: #ccc;
+    outline:none;   
+
+    font-size: 16px;
+
+    margin-bottom:10px;
+
+    transition: 0.6s;
+}   
+
+#section-2 .textfield input:hover{
+    background: #888 ;
+}
+
+#section-2 .textfield label{
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+#section-2 .textfield input::placeholder{
+    color: #bbb;
+}
+
+#section-2 span a{
+    font-size: 12px;
+    color: #aaa;
+
+}
+#section-2 span a:hover{
+    color: #ccc;
+}
+
+
+#section-2 .btn-login{
+    width: 100%;
+    
+    padding: 16px 0;
+    margin:25px;
+    
+    border: none;
+    border-radius: 8px;
+
+    outline: none;
+
+    text-transform:uppercase;
+
+    font-weight: 800;
+    font-size:16px;
+    letter-spacing: 3px;
+
+    background: #ddd;
+    color: #777;
+
+    cursor: pointer;
+}
+
+#section-2 .btn-login:hover{
+    color:#555;
+}
+
+#section-2 .btn-cadastro {
+    width: 80%;
+    
+    padding: 16px 0;
+    
+    border: none;
+    border-radius: 8px;
+
+    outline: none;
+
+    background: #777;
+
+    cursor: pointer;
+
+    color: #ddd;
+
+    text-decoration:none;
+
+    font-weight: bold;
+    font-size:16px;
+    letter-spacing: 3px;
+
+    text-align: center;
+}
+
+#section-2 .btn-cadastro:hover{
+    color: #fff;
+
+}
