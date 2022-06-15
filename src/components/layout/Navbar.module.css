@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+  
+img{
+    width: 10%;
+    margin:0;
+    padding: 0px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+li {
+    margin-right: 2em;
+  }
+  
+li a {
+    color: #331F54;
+    text-decoration: none;
+
+    transition: filter 0.3s;
+}
+
+li a:hover{
+    filter: brightness(1.2);
+    border-bottom: 2px solid #331F54;
+    
+}
+  
